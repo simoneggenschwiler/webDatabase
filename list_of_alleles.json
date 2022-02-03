@@ -1,0 +1,597 @@
+[
+    {
+        "name": "A0101",
+        "mediumName": "A*01:01",
+        "longName": "HLA-A*01:01"
+    },
+    {
+        "name": "A0201",
+        "mediumName": "A*02:01",
+        "longName": "HLA-A*02:01"
+    },
+    {
+        "name": "A0202",
+        "mediumName": "A*02:02",
+        "longName": "HLA-A*02:02"
+    },
+    {
+        "name": "A0203",
+        "mediumName": "A*02:03",
+        "longName": "HLA-A*02:03"
+    },
+    {
+        "name": "A0204",
+        "mediumName": "A*02:04",
+        "longName": "HLA-A*02:04"
+    },
+    {
+        "name": "A0205",
+        "mediumName": "A*02:05",
+        "longName": "HLA-A*02:05"
+    },
+    {
+        "name": "A0206",
+        "mediumName": "A*02:06",
+        "longName": "HLA-A*02:06"
+    },
+    {
+        "name": "A0207",
+        "mediumName": "A*02:07",
+        "longName": "HLA-A*02:07"
+    },
+    {
+        "name": "A0211",
+        "mediumName": "A*02:11",
+        "longName": "HLA-A*02:11"
+    },
+    {
+        "name": "A0220",
+        "mediumName": "A*02:20",
+        "longName": "HLA-A*02:20"
+    },
+    {
+        "name": "A0301",
+        "mediumName": "A*03:01",
+        "longName": "HLA-A*03:01"
+    },
+    {
+        "name": "A0302",
+        "mediumName": "A*03:02",
+        "longName": "HLA-A*03:02"
+    },
+    {
+        "name": "A1101",
+        "mediumName": "A*11:01",
+        "longName": "HLA-A*11:01"
+    },
+    {
+        "name": "A1102",
+        "mediumName": "A*11:02",
+        "longName": "HLA-A*11:02"
+    },
+    {
+        "name": "A2301",
+        "mediumName": "A*23:01",
+        "longName": "HLA-A*23:01"
+    },
+    {
+        "name": "A2402",
+        "mediumName": "A*24:02",
+        "longName": "HLA-A*24:02"
+    },
+    {
+        "name": "A2407",
+        "mediumName": "A*24:07",
+        "longName": "HLA-A*24:07"
+    },
+    {
+        "name": "A2501",
+        "mediumName": "A*25:01",
+        "longName": "HLA-A*25:01"
+    },
+    {
+        "name": "A2601",
+        "mediumName": "A*26:01",
+        "longName": "HLA-A*26:01"
+    },
+    {
+        "name": "A2902",
+        "mediumName": "A*29:02",
+        "longName": "HLA-A*29:02"
+    },
+    {
+        "name": "A3001",
+        "mediumName": "A*30:01",
+        "longName": "HLA-A*30:01"
+    },
+    {
+        "name": "A3002",
+        "mediumName": "A*30:02",
+        "longName": "HLA-A*30:02"
+    },
+    {
+        "name": "A3101",
+        "mediumName": "A*31:01",
+        "longName": "HLA-A*31:01"
+    },
+    {
+        "name": "A3201",
+        "mediumName": "A*32:01",
+        "longName": "HLA-A*32:01"
+    },
+    {
+        "name": "A3301",
+        "mediumName": "A*33:01",
+        "longName": "HLA-A*33:01"
+    },
+    {
+        "name": "A3303",
+        "mediumName": "A*33:03",
+        "longName": "HLA-A*33:03"
+    },
+    {
+        "name": "A3401",
+        "mediumName": "A*34:01",
+        "longName": "HLA-A*34:01"
+    },
+    {
+        "name": "A3402",
+        "mediumName": "A*34:02",
+        "longName": "HLA-A*34:02"
+    },
+    {
+        "name": "A3601",
+        "mediumName": "A*36:01",
+        "longName": "HLA-A*36:01"
+    },
+    {
+        "name": "A6601",
+        "mediumName": "A*66:01",
+        "longName": "HLA-A*66:01"
+    },
+    {
+        "name": "A6801",
+        "mediumName": "A*68:01",
+        "longName": "HLA-A*68:01"
+    },
+    {
+        "name": "A6802",
+        "mediumName": "A*68:02",
+        "longName": "HLA-A*68:02"
+    },
+    {
+        "name": "A7401",
+        "mediumName": "A*74:01",
+        "longName": "HLA-A*74:01"
+    },
+    {
+        "name": "B0702",
+        "mediumName": "B*07:02",
+        "longName": "HLA-B*07:02"
+    },
+    {
+        "name": "B0704",
+        "mediumName": "B*07:04",
+        "longName": "HLA-B*07:04"
+    },
+    {
+        "name": "B0801",
+        "mediumName": "B*08:01",
+        "longName": "HLA-B*08:01"
+    },
+    {
+        "name": "B1301",
+        "mediumName": "B*13:01",
+        "longName": "HLA-B*13:01"
+    },
+    {
+        "name": "B1302",
+        "mediumName": "B*13:02",
+        "longName": "HLA-B*13:02"
+    },
+    {
+        "name": "B1401",
+        "mediumName": "B*14:01",
+        "longName": "HLA-B*14:01"
+    },
+    {
+        "name": "B1402",
+        "mediumName": "B*14:02",
+        "longName": "HLA-B*14:02"
+    },
+    {
+        "name": "B1501",
+        "mediumName": "B*15:01",
+        "longName": "HLA-B*15:01"
+    },
+    {
+        "name": "B1502",
+        "mediumName": "B*15:02",
+        "longName": "HLA-B*15:02"
+    },
+    {
+        "name": "B1503",
+        "mediumName": "B*15:03",
+        "longName": "HLA-B*15:03"
+    },
+    {
+        "name": "B1510",
+        "mediumName": "B*15:10",
+        "longName": "HLA-B*15:10"
+    },
+    {
+        "name": "B1517",
+        "mediumName": "B*15:17",
+        "longName": "HLA-B*15:17"
+    },
+    {
+        "name": "B1518",
+        "mediumName": "B*15:18",
+        "longName": "HLA-B*15:18"
+    },
+    {
+        "name": "B1801",
+        "mediumName": "B*18:01",
+        "longName": "HLA-B*18:01"
+    },
+    {
+        "name": "B1803",
+        "mediumName": "B*18:03",
+        "longName": "HLA-B*18:03"
+    },
+    {
+        "name": "B2704",
+        "mediumName": "B*27:04",
+        "longName": "HLA-B*27:04"
+    },
+    {
+        "name": "B2705",
+        "mediumName": "B*27:05",
+        "longName": "HLA-B*27:05"
+    },
+    {
+        "name": "B2709",
+        "mediumName": "B*27:09",
+        "longName": "HLA-B*27:09"
+    },
+    {
+        "name": "B3501",
+        "mediumName": "B*35:01",
+        "longName": "HLA-B*35:01"
+    },
+    {
+        "name": "B3502",
+        "mediumName": "B*35:02",
+        "longName": "HLA-B*35:02"
+    },
+    {
+        "name": "B3503",
+        "mediumName": "B*35:03",
+        "longName": "HLA-B*35:03"
+    },
+    {
+        "name": "B3507",
+        "mediumName": "B*35:07",
+        "longName": "HLA-B*35:07"
+    },
+    {
+        "name": "B3508",
+        "mediumName": "B*35:08",
+        "longName": "HLA-B*35:08"
+    },
+    {
+        "name": "B3701",
+        "mediumName": "B*37:01",
+        "longName": "HLA-B*37:01"
+    },
+    {
+        "name": "B3801",
+        "mediumName": "B*38:01",
+        "longName": "HLA-B*38:01"
+    },
+    {
+        "name": "B3802",
+        "mediumName": "B*38:02",
+        "longName": "HLA-B*38:02"
+    },
+    {
+        "name": "B3901",
+        "mediumName": "B*39:01",
+        "longName": "HLA-B*39:01"
+    },
+    {
+        "name": "B3905",
+        "mediumName": "B*39:05",
+        "longName": "HLA-B*39:05"
+    },
+    {
+        "name": "B3906",
+        "mediumName": "B*39:06",
+        "longName": "HLA-B*39:06"
+    },
+    {
+        "name": "B3924",
+        "mediumName": "B*39:24",
+        "longName": "HLA-B*39:24"
+    },
+    {
+        "name": "B4001",
+        "mediumName": "B*40:01",
+        "longName": "HLA-B*40:01"
+    },
+    {
+        "name": "B4002",
+        "mediumName": "B*40:02",
+        "longName": "HLA-B*40:02"
+    },
+    {
+        "name": "B4006",
+        "mediumName": "B*40:06",
+        "longName": "HLA-B*40:06"
+    },
+    {
+        "name": "B4032",
+        "mediumName": "B*40:32",
+        "longName": "HLA-B*40:32"
+    },
+    {
+        "name": "B4101",
+        "mediumName": "B*41:01",
+        "longName": "HLA-B*41:01"
+    },
+    {
+        "name": "B4201",
+        "mediumName": "B*42:01",
+        "longName": "HLA-B*42:01"
+    },
+    {
+        "name": "B4402",
+        "mediumName": "B*44:02",
+        "longName": "HLA-B*44:02"
+    },
+    {
+        "name": "B4403",
+        "mediumName": "B*44:03",
+        "longName": "HLA-B*44:03"
+    },
+    {
+        "name": "B4405",
+        "mediumName": "B*44:05",
+        "longName": "HLA-B*44:05"
+    },
+    {
+        "name": "B4501",
+        "mediumName": "B*45:01",
+        "longName": "HLA-B*45:01"
+    },
+    {
+        "name": "B4601",
+        "mediumName": "B*46:01",
+        "longName": "HLA-B*46:01"
+    },
+    {
+        "name": "B4701",
+        "mediumName": "B*47:01",
+        "longName": "HLA-B*47:01"
+    },
+    {
+        "name": "B4801",
+        "mediumName": "B*48:01",
+        "longName": "HLA-B*48:01"
+    },
+    {
+        "name": "B4901",
+        "mediumName": "B*49:01",
+        "longName": "HLA-B*49:01"
+    },
+    {
+        "name": "B5001",
+        "mediumName": "B*50:01",
+        "longName": "HLA-B*50:01"
+    },
+    {
+        "name": "B5101",
+        "mediumName": "B*51:01",
+        "longName": "HLA-B*51:01"
+    },
+    {
+        "name": "B5108",
+        "mediumName": "B*51:08",
+        "longName": "HLA-B*51:08"
+    },
+    {
+        "name": "B5201",
+        "mediumName": "B*52:01",
+        "longName": "HLA-B*52:01"
+    },
+    {
+        "name": "B5301",
+        "mediumName": "B*53:01",
+        "longName": "HLA-B*53:01"
+    },
+    {
+        "name": "B5401",
+        "mediumName": "B*54:01",
+        "longName": "HLA-B*54:01"
+    },
+    {
+        "name": "B5501",
+        "mediumName": "B*55:01",
+        "longName": "HLA-B*55:01"
+    },
+    {
+        "name": "B5502",
+        "mediumName": "B*55:02",
+        "longName": "HLA-B*55:02"
+    },
+    {
+        "name": "B5601",
+        "mediumName": "B*56:01",
+        "longName": "HLA-B*56:01"
+    },
+    {
+        "name": "B5701",
+        "mediumName": "B*57:01",
+        "longName": "HLA-B*57:01"
+    },
+    {
+        "name": "B5703",
+        "mediumName": "B*57:03",
+        "longName": "HLA-B*57:03"
+    },
+    {
+        "name": "B5801",
+        "mediumName": "B*58:01",
+        "longName": "HLA-B*58:01"
+    },
+    {
+        "name": "B5802",
+        "mediumName": "B*58:02",
+        "longName": "HLA-B*58:02"
+    },
+    {
+        "name": "B6701",
+        "mediumName": "B*67:01",
+        "longName": "HLA-B*67:01"
+    },
+    {
+        "name": "B7301",
+        "mediumName": "B*73:01",
+        "longName": "HLA-B*73:01"
+    },
+    {
+        "name": "C0102",
+        "mediumName": "C*01:02",
+        "longName": "HLA-C*01:02"
+    },
+    {
+        "name": "C0202",
+        "mediumName": "C*02:02",
+        "longName": "HLA-C*02:02"
+    },
+    {
+        "name": "C0302",
+        "mediumName": "C*03:02",
+        "longName": "HLA-C*03:02"
+    },
+    {
+        "name": "C0303",
+        "mediumName": "C*03:03",
+        "longName": "HLA-C*03:03"
+    },
+    {
+        "name": "C0304",
+        "mediumName": "C*03:04",
+        "longName": "HLA-C*03:04"
+    },
+    {
+        "name": "C0401",
+        "mediumName": "C*04:01",
+        "longName": "HLA-C*04:01"
+    },
+    {
+        "name": "C0403",
+        "mediumName": "C*04:03",
+        "longName": "HLA-C*04:03"
+    },
+    {
+        "name": "C0501",
+        "mediumName": "C*05:01",
+        "longName": "HLA-C*05:01"
+    },
+    {
+        "name": "C0602",
+        "mediumName": "C*06:02",
+        "longName": "HLA-C*06:02"
+    },
+    {
+        "name": "C0701",
+        "mediumName": "C*07:01",
+        "longName": "HLA-C*07:01"
+    },
+    {
+        "name": "C0702",
+        "mediumName": "C*07:02",
+        "longName": "HLA-C*07:02"
+    },
+    {
+        "name": "C0704",
+        "mediumName": "C*07:04",
+        "longName": "HLA-C*07:04"
+    },
+    {
+        "name": "C0801",
+        "mediumName": "C*08:01",
+        "longName": "HLA-C*08:01"
+    },
+    {
+        "name": "C0802",
+        "mediumName": "C*08:02",
+        "longName": "HLA-C*08:02"
+    },
+    {
+        "name": "C1202",
+        "mediumName": "C*12:02",
+        "longName": "HLA-C*12:02"
+    },
+    {
+        "name": "C1203",
+        "mediumName": "C*12:03",
+        "longName": "HLA-C*12:03"
+    },
+    {
+        "name": "C1204",
+        "mediumName": "C*12:04",
+        "longName": "HLA-C*12:04"
+    },
+    {
+        "name": "C1402",
+        "mediumName": "C*14:02",
+        "longName": "HLA-C*14:02"
+    },
+    {
+        "name": "C1403",
+        "mediumName": "C*14:03",
+        "longName": "HLA-C*14:03"
+    },
+    {
+        "name": "C1502",
+        "mediumName": "C*15:02",
+        "longName": "HLA-C*15:02"
+    },
+    {
+        "name": "C1505",
+        "mediumName": "C*15:05",
+        "longName": "HLA-C*15:05"
+    },
+    {
+        "name": "C1601",
+        "mediumName": "C*16:01",
+        "longName": "HLA-C*16:01"
+    },
+    {
+        "name": "C1602",
+        "mediumName": "C*16:02",
+        "longName": "HLA-C*16:02"
+    },
+    {
+        "name": "C1701",
+        "mediumName": "C*17:01",
+        "longName": "HLA-C*17:01"
+    },
+    {
+        "name": "G0101",
+        "mediumName": "G*01:01",
+        "longName": "HLA-G*01:01"
+    },
+    {
+        "name": "G0103",
+        "mediumName": "G*01:03",
+        "longName": "HLA-G*01:03"
+    },
+    {
+        "name": "G0104",
+        "mediumName": "G*01:04",
+        "longName": "HLA-G*01:04"
+    }
+]

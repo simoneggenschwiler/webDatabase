@@ -1,0 +1,72 @@
+:root {
+	--lightBlue: #1f5166;
+	--darkBlue: #084057;
+	--fontGrey: #f0f0f0;
+	--headerHeight: 77px;
+	--sidebarWidth: 130px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header.mainTitle {
+	position: sticky;
+	top: 0;
+	text-align: center;
+	background: var(--darkBlue);
+	color: var(--fontGrey);
+	height: var(--headerHeight);
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.container{
+	display: flex;
+	height: calc(100vh - var(--headerHeight));
+}
+
+.container .sidebar{
+	align-items: center;
+	background-color: var(--lightBlue);
+	color: var(--fontGrey);
+	width: var(--sidebarWidth);
+	display: flex;
+	flex-shrink: 0;
+	flex-direction: column;
+	overflow-x: hidden;
+}
+
+.container .sidebar .title-sidebar{
+	font-size: 35px;
+	padding: 10px 10px;
+/*	margin: 0;
+	display: flex;
+	top: 0;
+	height: 30px;
+	overflow-y: auto;
+	vertical-align: middle;*/
+}
+
+.container .sidebar .list-of-alleles{
+	flex-grow: 1;
+	overflow-y: auto;
+	margin-top: 0;
+	/*height: 100vh;
+	overflow-y: auto;*/
+}
+
+.container .sidebar .list-of-alleles ul{
+	margin: 0;
+	padding-bottom: 0;
+	margin-bottom: 30px;
+}
+
+.container .content{
+	flex-grow: 1;
+	overflow-y: auto;
+	margin: 20px;
+}
+
+
