@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MHC Class II</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="styles_class2.css" rel="stylesheet" type="text/css" />
+    <script src="script.js" defer></script>
+    <script src="script_class2.js" defer></script>
+</head>
+<body>
+    <header class="mainTitle">
+        <input type="checkbox" class="nav-toggle" id="nav-toggle">
+        <nav>
+            <ul>
+                <a href="index.html"><li class="nav-link">Home</li></a>
+                <a href="class1.html"><li class="nav-link">Class 1 Alleles</li></a>
+                <a href="class2.html"><li class="nav-link">Class 2 Alleles</li></a>
+                <a href="#"><li class="nav-link">Download Ligands</li></a>
+                <a href="#"><li class="nav-link">Predictors</li></a> 
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+        MHC Motif Atlas : Class II alleles
+        <div class="download-all">
+            <a href="pathToFile">Download all Peptides</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="sidebar">
+            <div class="title-sidebar">
+                <label for="search">Alleles</label>
+                <div id="search-bars">
+                    <input type="search" id="searchAlpha" data-allele-search-alpha placeholder="Alpha Side Chain">
+                    <input type="search" id="searchBeta" data-allele-search-beta placeholder="Beta Side Chain">
+                </div>
+            </div>
+
+
+            <input type="button" value='Uncheck all' onclick="uncheckAll()" class="uncheck-all-btn">
+            <div>
+                <div class="separation-bar"></div>
+                <div class="subtitle">
+                    Selected Alleles:
+                </div>
+                <ul class="selected-alleles" data-alleles-selected-container>
+                    <ul class="DRB" id="DRBselected"></ul>
+                    <ul class="DQA" id="DQAselected"></ul>
+                    <ul class="DPA" id="DPAselected"></ul>
+                    <ul class="H2_" id="H2_selected"></ul>
+                    <ul class="BoL" id="BoLselected"></ul>
+                    <ul class="Gag" id="Gagselected"></ul>
+                </ul>
+                
+                <div class="separation-bar"></div>
+                <div class="search-description">
+                    Alleles with MS data are listed below. Others can be found using the Search bars above.
+                </div>
+                <template data-allele-list-template>
+                    <li class="allele-selection">
+                        <input type="checkbox" onchange="LoadHideLogos(this.id)">
+                    </li>
+                </template>
+                <ul class="list-of-alleles" data-alleles-container>
+                    <ul class="DRB" id="DRB"></ul>
+                    <ul class="DQA" id="DQA"></ul>
+                    <ul class="DPA" id="DPA"></ul>
+                    <ul class="H2_" id="H2_"></ul>
+                    <ul class="BoL" id="BoL"></ul>
+                    <ul class="Gag" id="Gag"></ul>
+                </ul>
+            </div>
+        </div>
+        <template data-content-allele-template>
+            <li class="content-allele">
+                <h2 class="title" title>
+
+                </h2>
+                <div class="alleleContent" data-allele-graphs></div>
+
+            </li>
+        </template>
+        <ul class="content" data-content-graphs>
+            <ul class="DRB" id="DRBLogos"></ul>
+            <ul class="DQA" id="DQALogos"></ul>
+            <ul class="DPA" id="DPALogos"></ul>
+            <ul class="H2_" id="H2_Logos"></ul>
+            <ul class="BoL" id="BoLLogos"></ul>
+            <ul class="Gag" id="GagLogos"></ul>
+        </ul>
+    </div>
+</body>
+</html>

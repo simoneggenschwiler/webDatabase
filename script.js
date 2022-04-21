@@ -1,12 +1,15 @@
-// console.log(fetch("list_of_alleles.json"))
+// document.body.addEventListener('click', () => {
+//     closeMenu()
+// });
 
+// document.getElementsByClassName('nav-toggle-label')[0].addEventListener('click', function(e) {
+//     console.log('stop propagation')
+//     console.log(e)
+//     e.stopPropagation(); // this stops the event from bubbling up to the body
+// });
 
-// import configData from 
+// function closeMenu() {
+//     console.log(document.getElementById('nav-toggle'))
+//     document.getElementById('nav-toggle').checked = false
+// };
 
-
-function get_list_of_alleles(file) {
-	import jsonAlleles from 'list_of_alleles.json';
-	let parsedJson = JSON.parse(jsonAlleles);
-	console.log(parsedJson);
-	return "c'est un test";
-}
