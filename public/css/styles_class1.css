@@ -1,0 +1,163 @@
+:root {
+	/* --lightBlue: #1f5166;
+	--darkBlue: #084057;
+	--fontGrey: #f0f0f0;
+	--headerHeight: 77px; */
+	--sidebarWidth: 170px;
+}
+
+/* * {
+	padding: 0;
+} */
+
+
+
+
+
+.uncheck-all-btn {
+	margin-bottom: 10px;
+	padding: 4px 10px;
+	border-radius: 1em;
+	border: var(--fontGrey) 2px solid;
+	background-color: var(--lightBlue);
+	color: var(--fontGrey);
+}
+
+.uncheck-all-btn:hover {
+	cursor: pointer;
+	background-color: var(--fontGrey);
+	color: var(--lightBlue);
+}
+
+
+#length-of-peptides {
+	position: fixed;
+	display: flex;
+	width: calc(100vw);
+	transform: translateX(var(--sidebarWidth));
+	font-size: 1.25em;
+	padding: 10px;
+	background: var(--lightBlue);
+	color: var(--fontGrey);
+	margin: 0;
+	gap: 0.7em;
+	z-index: 10;
+	white-space: nowrap;
+	overflow: inherit;
+	
+}
+
+
+/* #length-of-peptides li input[type="checkbox"] {
+	margin-right: -2px;
+} */
+
+.content {
+	padding-top: 60px;
+}
+
+.container .content .content-allele{
+	display: none;
+}
+
+.title {
+	white-space: nowrap;
+}
+
+.container .content .content-allele .alleleContent ul{
+	display: flex;
+	padding-top: 10px;
+	margin: 0;
+	gap: 2px;
+	height: 220px;
+}
+
+.alleleContent > * {
+	transition: opacity 250ms linear;
+}
+
+/* .container .content .content-allele .alleleContent ul li{
+	width: 250px;
+	position: relative;
+} */
+
+
+/* .container .content .content-allele .alleleContent ul li {
+	display: flex;
+} */
+
+
+.logos {
+	width: 250px;
+	min-height: 200px;
+	align-items: center;
+}
+
+
+img{
+	transition: transform 250ms ease-in-out;
+	position: relative;
+}
+
+img:hover {
+	transform: scale(1.5);
+	z-index: 15;
+	transition: transform 250ms 750s ease-in-out;
+}
+
+
+
+.smallImg:hover {
+	transform: scale(2.8);
+	position: relative;
+	z-index: 15;
+}
+
+
+.title-model{
+	width: 50px;
+	height: 250px;
+	position: relative;
+
+}
+
+.title-model span{
+	position: absolute;
+	bottom: 150px;
+	left: 20px;
+	transform-origin: 50% 100%;
+	transform: rotate(-90deg) translateY(-50%);
+	font-size: 1rem;
+	text-align: center;
+}
+
+/* .container .content .content-allele .alleleContent ul li > img:hover {
+	position: relative;
+	left: 58px;
+} */
+
+.Model-Selection{
+	font-size: 0.75em;
+	display: absolute;
+	position: inline-block;
+	white-space: nowrap;
+}
+
+
+.figName{
+	text-align: center;
+	margin: 0;
+}
+
+
+
+
+label {
+	align-items: center;
+}
+
+
+
+.download-allele {
+	font-size: 0.75em;
+}

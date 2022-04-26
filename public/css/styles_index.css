@@ -1,0 +1,50 @@
+:root {
+	--lightBlue: #1f5166;
+	--darkBlue: #084057;
+	--fontGrey: #f0f0f0;
+	--headerHeight: 77px;
+	--sidebarWidth: 140px;
+}
+
+* {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+div {
+    text-align: center;
+}
+
+h2 {
+    background-color: var(--lightBlue);
+    padding: 20px;
+    color: var(--fontGrey);
+}
+
+.fillerText {
+    padding: 20px;
+}
+
+.explore h2 {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+} 
+
+.tools {
+    flex-direction: column;
+    text-align: center;
+    width: max-content;
+    margin: auto;
+}
+
+.tools li {
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--lightBlue);
+    color: var(--fontGrey);
+}

@@ -1,0 +1,48 @@
+:root {
+    --sidebarWidth: 280px;
+}
+
+
+.sidebar .title-sidebar input {
+	width: calc((var(--sidebarWidth) - 30px)/2);
+}
+
+
+.uncheck-all-btn {
+	margin-bottom: 10px;
+	padding: 4px 10px;
+	border-radius: 1em;
+	border: var(--fontGrey) 2px solid;
+	background-color: var(--lightBlue);
+	color: var(--fontGrey);
+}
+
+.uncheck-all-btn:hover {
+	cursor: pointer;
+	background-color: var(--fontGrey);
+	color: var(--lightBlue);
+}
+
+.search-description {
+	padding: 10px;
+}
+
+
+/* .list-of-alleles .allele-selection.hide{
+	display: none;
+} */
+
+∂
+.content{
+	padding-top: 10px;
+}
+
+.content .title {
+	padding-bottom: 5px;
+}
+
+
+
+.download-allele {
+	font-size: 0.6em;
+}
